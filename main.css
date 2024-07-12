@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Embed code";
+
+}
+section{
+    min-width: 100vh;
+   
+}
+.container{
+    width: 90%;
+    margin: auto;
+    font-size: 30px;
+}
+nav{
+    height: 250px;
+}
+nav h1{
+    float: left;
+    line-height: 200px;
+    font-size: 100px;
+    font-size: inline;
+    color: #eb7620;
+    font-family: "Concert One";
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 5px;
+}
+body {
+
+    background-image:  url("https://st.depositphotos.com/1372276/2539/i/450/depositphotos_25399091-stock-photo-young-man-doing-homework-and.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul li a {
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1{
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    font-weight: 1000;
+    margin-bottom: 25px; 
+    
+}
+
+.article p{
+    font-size: 45px;
+    color: #c2afaf;
+    list-style: 1.5;
+    margin-bottom: 50px;
+}
+
+.article .btn{
+    color: #fff;
+    padding: 12px 25px ;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+    border-radius: 5px;
+
+}
+
+.article .btn:hover{
+    background: #4399fa;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
